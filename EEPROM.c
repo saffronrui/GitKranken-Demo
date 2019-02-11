@@ -1,8 +1,4 @@
-//This is PT1000 control file//
+//This is eeprom control file//
 
 
-void PT1000_init(void)
-{
-	TEMP1 = -55;
-	TEMP2 = -55;
-}
+char temp[10] = {0,1,2,3,4,5,6,7,8,9};
