@@ -4,11 +4,12 @@
 
 int  main(void)
 {
+	LED_init();
 	return  0;
 
 }
 
-void led_init(void)
+void LED_init(void)
 {
 	LED0 = 0;
 	LED1 = 1;
